@@ -1,3 +1,4 @@
+####################  New Resource Info ###########################
 variable "vm_name" {
     type = string
       default = "TESTDC"
@@ -8,6 +9,7 @@ variable "vm_ip" {
       default = "10.0.2.8"
     description = " Server private ip address"
 }
+#############  Existing Resources Info ################################# 
 variable "rg_name" {
     type = string
       default = "vm-test"
